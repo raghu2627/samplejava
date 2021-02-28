@@ -10,7 +10,7 @@ browser.get('http://192.168.33.30:8080/dev/')
 print browser.title
 var1 = browser.title
 print var1
-if "Hello Java2" in var1:
+if "Hello Earth" in var1:
     print "Test Successful"
 else:
     raise Exception("Test Failed")
